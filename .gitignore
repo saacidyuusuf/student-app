@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+import React from "react";
+import { Link } from "react-router-dom";
+
+const mainnav = () => {
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/"></Link>Students
+          </li>
+          <li>
+            <Link to="/register"></Link>Register
+          </li>
+          <li>
+            <Link to="/studentfaculties"></Link>StudentFaculties
+          </li>
+        </ul>
+      </nav>
+    </div>
+  );
+};
+
+export default mainnav;

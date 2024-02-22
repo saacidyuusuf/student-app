@@ -1,0 +1,57 @@
+.formTitle{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.forms{
+    display: flex;
+    justify-content: left;
+    padding: 1rem;
+    background-color: #efefef;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+    width: 40%;
+    margin: auto;
+    margin-top: 1.3rem;
+}
+
+form input{
+    margin: 0.23rem;
+    align-items: left;
+    width: 170%;
+    border: none;
+    align-content: flex-start;
+    border-radius: 12px;
+    padding: 6px;
+    display: block;
+}
+
+.faculty{
+    margin: 0.40rem;
+}
+
+
+
+.faculty select{
+    margin-left: 1rem;
+}
+
+.btn{
+    background-color: none;
+    border: 3px solid lightblue;
+    border-radius: 12px;
+    font-weight: 700;
+    padding: 6px;
+    color: rgb(17, 173, 235);
+}
+
+
+@media (max-width: 900px) {
+    .forms{
+        width: 80%;
+    }
+    form input{
+        width: 130%;
+    }
+}
+

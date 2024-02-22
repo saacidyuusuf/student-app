@@ -1,0 +1,10 @@
+
+
+.applied{
+    display: flex;
+    justify-content: center;
+    align-items: cener;
+    text-align: center;
+    flex-direction: column;
+    
+}

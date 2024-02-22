@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containert{
+    width: 80%;
+    margin: auto;
+}
+
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 2% 5%;
+    white-space: nowrap;
+}
+
+nav{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+} 
+
+nav ul {
+    list-style: none;
+    padding: 8px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0.40rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    transition: .5s;
+}
+
+nav ul li a:hover{
+    color:cornflowerblue;
+}
+
+.tiro{
+    background-color: red;
+    color: white;
+    padding: 0 0.30rem;
+    margin-left: 0.5rem;
+    border-radius: 12px;
+}

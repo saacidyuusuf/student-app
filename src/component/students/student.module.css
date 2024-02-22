@@ -1,0 +1,40 @@
+.studentTitle {
+  text-align: center;
+}
+.infoHaye {
+  display: flex;
+  gap: 2rem;
+  background-color: #efefef;
+  border-radius: 12px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: center;
+}
+
+.info-qofka h3,
+h4 {
+  padding: 0.5rem;
+}
+.info-qofka span {
+  color: rgb(91, 144, 161);
+}
+/*npx create-next-app*/
+
+.faculty{
+    border: none;
+    padding: 4px;
+    border: 2px solid #2828;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .cont {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}
